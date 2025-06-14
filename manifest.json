@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Somtoday token taker",
+    "version": "1.0",
+    "description": "Easy token extractor for Somtoday tokens",
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+        {
+            "matches": ["https://leerling.somtoday.nl/*"],
+            "js": ["main.js"],
+            "css": ["styles.css"]
+        }
+    ]
+}

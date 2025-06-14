@@ -1,0 +1,77 @@
+#toggle-tt {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    z-index: 100;
+    height: 30px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 15px 0 0 15px;
+    box-shadow: -5px 5px 10px #3333335e;
+    font-size: 0.75em;
+}
+
+#toggle-tt:hover {
+    background: #131313;
+}
+
+#toggle-tt:focus {
+    background: #2d2c2c;
+}
+
+#tokentaker *,
+#tokentaker {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tokentaker {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    z-index: 100;
+    width: fit-content;
+    font-family: monospace;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px 0 0 15px;
+    box-shadow: -5px 5px 10px #3333335e;
+}
+
+.tota-token-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: strech;
+    gap: 10px;
+}
+
+.tota-token {
+    width: 200px;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    padding: 10px !important;
+    text-wrap: nowrap;
+}
+
+.tota-copy-token {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px !important;
+}
+
+.tota-copy-token:hover {
+    background: #313131;
+}
+
+.tota-copy-token:focus {
+    background: #727272;
+}
