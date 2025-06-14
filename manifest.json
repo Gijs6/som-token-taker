@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Easy token extractor for Somtoday tokens",
     "permissions": ["storage"],
-    "host_permissions": ["<all_urls>"],
+    "host_permissions": ["https://leerling.somtoday.nl/*"],
     "content_scripts": [
         {
             "matches": ["https://leerling.somtoday.nl/*"],
