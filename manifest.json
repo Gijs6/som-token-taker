@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Somtoday token taker",
     "version": "1.0",
-    "description": "Easy token extractor for Somtoday tokens",
+    "description": "Easy token extractor from localstorage for Somtoday tokens",
     "permissions": ["storage"],
     "host_permissions": ["https://leerling.somtoday.nl/*"],
     "content_scripts": [
@@ -11,5 +11,10 @@
             "js": ["main.js"],
             "css": ["styles.css"]
         }
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{44e5c973-c556-4dbc-93dd-b44788a568a1}"
+        }
+    }
 }
